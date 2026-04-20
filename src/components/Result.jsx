@@ -1,5 +1,5 @@
-function Result(){
-    return <p>Hier steht das Ergebnis</p>
-}
-
-export default Result;
+function Result({ text }) {
+    return <p>{text}</p>;
+  }
+  
+  export default Result;
